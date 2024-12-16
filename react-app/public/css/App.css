@@ -60,6 +60,10 @@ html, #root {
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
+#editor {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
 .hidden-overflow {
   overflow: hidden;
 }
