@@ -91,6 +91,7 @@ cd <repository-folder>
 
 - For detailed API documentation, visit [Litmus Instant API Docs](https://docs.litmus.com/instant).
 - Ensure both the Flask backend and React frontend are running simultaneously for the application to function properly.
+- The backend Flask app uses [littletable](https://github.com/ptmcg/littletable) as an in-memory data store to demonstrate saving and retrieving email client preferences.
 
 ## License
 
