@@ -2,6 +2,9 @@
 
 This project demonstrates the use of the [Litmus Instant API](https://docs.litmus.com/instant) with a full-stack application. The backend Flask app wraps the Litmus API calls, while the React frontend provides a user interface for testing an email with the Litmus API.
 
+![api-demo-preview](https://github.com/user-attachments/assets/daceb353-b71e-436e-a8a7-3370d4ca2978)
+
+
 ## Project Structure
 
 ```
