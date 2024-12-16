@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  height: 100%; /* Ensure body takes full height */
+}
+
+html, #root {
+  height: 100%; /* Ensure html and root take full height */
+}
+
+/* Container Styles */
+.container-fluid {
+  height: 100vh; /* Full viewport height */
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar {
+  height: 70px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  background: black;
+  color: white;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.toolbar-icons button {
+  background: none;
+  border: none;
+  color: #ff7043;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.toolbar-icons button:hover {
+  color: #ffab91;
+}
+
+
+.CodeMirror {
+  height: 100% !important; /* Full height for CodeMirror */
+}
+
+/* Preview Pane Styles */
+.preview-pane {
+  background: #f8f9fa;
+  padding: 10px; /* Match the editor padding */
+  overflow-y: auto;
+  height: 100%; /* Full height of its parent */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Config Styles*/
+
+.config-pane {
+  background: #f8f9fa;
+  padding: 10px;
+  overflow-y: auto;
+  height: 100%; /* Full height of its parent */
+}
+
+.group-header-button {
+  margin: 5px 0; /* Add margin to the top and bottom */;
+  color: #000;
+}
+
+.group-name {
+  font-weight: bold;
+  margin: 0 5px;
+}
