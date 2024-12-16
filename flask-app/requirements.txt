@@ -1,0 +1,4 @@
+flask
+littletable
+requests
+python-dotenv
