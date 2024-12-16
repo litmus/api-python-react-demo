@@ -54,6 +54,16 @@ html, #root {
   height: 100% !important; /* Full height for CodeMirror */
 }
 
+#editor,
+.preview-pane {
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.hidden-overflow {
+  overflow: hidden;
+}
+
 /* Preview Pane Styles */
 .preview-pane {
   background: #f8f9fa;

@@ -21,14 +21,14 @@ const App = () => {
   return (
     <div className="container-fluid d-flex flex-column" style={{ height: "100vh" }}>
       <Navbar onTabChange={setActiveTab} />
-      <div className="row flex-grow-1">
+      <div className="row flex-grow-1 hidden-overflow">
         {/* Editor Column */}
         <div id="editor" className="col-6 p-0">
           <EditorPane onChange={handleEditorChange} />
         </div>
 
         {/* Preview or Other Content Column */}
-        <div className="col-6 p-0">
+        <div className="col-6 p-0 preview-pane">
           {activeTab === "preview" ? (
             <PreviewPane content={previewContent} />
           ) : activeTab === "settings" ? (
